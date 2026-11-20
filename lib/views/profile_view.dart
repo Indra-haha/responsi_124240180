@@ -28,11 +28,6 @@ class _ProfileViewState extends State<ProfileView> {
     });
   }
 
-  String get _initial {
-    final name = _username.trim();
-    return name.isEmpty ? '?' : name.substring(0, 1).toUpperCase();
-  }
-
   Future<void> _handleLogout() async {
     final shouldLogout = await showDialog<bool>(
       context: context,

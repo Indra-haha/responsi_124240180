@@ -3,7 +3,6 @@ import 'package:hive_flutter/hive_flutter.dart';
 import '../../models/spell_model.dart';
 import '../../services/hive_service.dart';
 import '../../services/notification_service.dart';
-import '../../widgets/top_snackbar.dart';
 
 class FavoriteSpellsView extends StatelessWidget {
   const FavoriteSpellsView({super.key});
